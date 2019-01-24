@@ -1,4 +1,4 @@
-package singleton;
+package cn.abelib.creational.singleton;
 
 /**
  * @Author: abel-huang
