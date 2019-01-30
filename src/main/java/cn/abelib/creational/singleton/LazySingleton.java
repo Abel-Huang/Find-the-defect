@@ -1,7 +1,9 @@
 package cn.abelib.creational.singleton;
 
 /**
- * Created by abel on 2017/12/26.
+ *
+ * @author abel
+ * @date 2017/12/26
  * 延迟加载， 只有调用时时，才会生成实例
  */
 public class LazySingleton {
@@ -10,8 +12,9 @@ public class LazySingleton {
     }
     private static LazySingleton instance = null;
     public static synchronized LazySingleton getInstance(){
-        if (instance == null)
+        if (instance == null) {
             instance = new LazySingleton();
+        }
         return instance;
     }
 }

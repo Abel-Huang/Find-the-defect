@@ -1,5 +1,8 @@
 package cn.abelib.creational.singleton;
 
+/**
+ * @author abel
+ */
 public class DoubleCheckSingleton {
     private static volatile DoubleCheckSingleton singleton;
 

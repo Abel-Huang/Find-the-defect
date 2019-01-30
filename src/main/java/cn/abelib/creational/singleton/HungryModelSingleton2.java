@@ -1,5 +1,8 @@
 package cn.abelib.creational.singleton;
 
+/**
+ * @author abel
+ */
 public class HungryModelSingleton2 {
     private static HungryModelSingleton2 instance;
 

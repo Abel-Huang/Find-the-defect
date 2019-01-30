@@ -1,7 +1,9 @@
 package cn.abelib.creational.singleton;
 
 /**
- * Created by abel on 2017/12/26.
+ *
+ * @author abel
+ * @date 2017/12/26
  */
 public class StaticSingleton {
     private StaticSingleton(){
