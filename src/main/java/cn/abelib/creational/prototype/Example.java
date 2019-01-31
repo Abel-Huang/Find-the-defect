@@ -4,7 +4,7 @@ package cn.abelib.creational.prototype;
  * @Author: abel.huang
  * @Date: 2019-01-31 04:42
  */
-public class Test {
+public class Example {
     public static void main(String[] args) throws CloneNotSupportedException {
         ComplexProduct product = new ComplexProduct();
         product.setContent("ComplexProduct");

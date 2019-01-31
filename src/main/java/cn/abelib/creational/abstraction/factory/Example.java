@@ -4,7 +4,7 @@ package cn.abelib.creational.abstraction.factory;
  * @Author: abel.huang
  * @Date: 2019-01-27 22:26
  */
-public class Test {
+public class Example {
     public static void main(String[] args) {
         // math 工厂
         CourseFactory mathCourseFactory = new MathCourseFactory();
